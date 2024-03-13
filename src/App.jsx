@@ -2,7 +2,7 @@ import UserGreeting from "./UserGreeting.jsx";
 function App() {
   return (
     <>
-      <UserGreeting isLoggedIn={true} username="Yugesh Reganti"></UserGreeting>
+      <UserGreeting isLoggedIn={false} username="Yugesh Reganti"></UserGreeting>
     </>
   );
 }
