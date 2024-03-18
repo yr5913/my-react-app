@@ -1,11 +1,6 @@
 import List from "./List.jsx";
 function App() {
-  const fruits = [
-    { id: 1, name: "apple", calories: 95 },
-    { id: 2, name: "banana", calories: 105 },
-    { id: 3, name: "orange", calories: 45 },
-    { id: 4, name: "strawberry", calories: 56 },
-  ];
+  const fruits = [];
 
   const veggies = [
     { id: 6, name: "potatoes", calories: 95 },
@@ -15,8 +10,10 @@ function App() {
   ];
   return (
     <>
-      <List items={fruits} category="Fruits"></List>
-      <List items={veggies} category="Vegetables"></List>
+      {fruits.length > 0 ? (
+        <List items={fruits} category="Fruits"></List>
+      ) : null}
+      {veggies.length > 0 ? <List items={veggies}></List> : null}
     </>
   );
 }
