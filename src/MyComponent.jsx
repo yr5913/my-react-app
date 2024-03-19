@@ -1,19 +1,15 @@
 import React, { useState } from "react";
 function MyComponent() {
   const [name, setName] = useState("Guest");
-  const [age, setAge] = useState(0);
-  const updateName = () => {
-    setName("Messi");
-  };
-  const incrementAge = () => {
-    setAge(age + 1);
-  };
+
+  function handleNameChange(event) {
+    setName(event.target.value);
+  }
+
   return (
     <div>
+      <input value={name} onChange={handleNameChange}></input>
       <p>Name:{name}</p>
-      <button onClick={updateName}>Set Name</button>
-      <p>Age:{age}</p>
-      <button onClick={incrementAge}>Increment age</button>
     </div>
   );
 }
