@@ -3,9 +3,7 @@ function MyComponentUseEffect() {
   const [count, setCount] = useState(0);
   const [color, setColor] = useState("green");
 
-  useEffect(() => {
-    document.title = `Count:${count} ${color}`;
-  }, [count]);
+  document.title = `Count:${count} ${color}`;
 
   function addCount() {
     setCount((c) => c + 1);
