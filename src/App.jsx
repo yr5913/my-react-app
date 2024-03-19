@@ -1,8 +1,8 @@
-import MyComponentObjectsArray from "./MyComponentObjectsArray.jsx";
+import ToDoList from "./ToDoList.jsx";
 function App() {
   return (
     <>
-      <MyComponentObjectsArray></MyComponentObjectsArray>
+      <ToDoList></ToDoList>
     </>
   );
 }
