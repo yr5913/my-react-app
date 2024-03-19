@@ -1,8 +1,8 @@
-import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
 function App() {
   return (
     <>
-      <ProfilePicture></ProfilePicture>
+      <MyComponent></MyComponent>
     </>
   );
 }
