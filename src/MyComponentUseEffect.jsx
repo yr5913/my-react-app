@@ -3,8 +3,8 @@ function MyComponentUseEffect() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    document.title = `Count:${count}`;
-  });
+    document.title = `My Counter Program`;
+  }, []);
 
   function addCount() {
     setCount((c) => c + 1);
