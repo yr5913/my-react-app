@@ -1,8 +1,8 @@
-import MyComponentObject from "./MyComponentObject.jsx";
+import MyComponenetArrays from "./MyComponentArrays.jsx";
 function App() {
   return (
     <>
-      <MyComponentObject></MyComponentObject>
+      <MyComponenetArrays></MyComponenetArrays>
     </>
   );
 }
