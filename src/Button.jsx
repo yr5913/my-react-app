@@ -1,7 +1,9 @@
 function Button() {
-  const handleClick = () => console.log("OUCH!");
-  const handleClick2 = (name) => console.log(`${name} stop clicking me`);
-  return <button onClick={() => handleClick2("Yugesh")}>Click me</button>;
+  let count = 0;
+  const handleClick2 = (e) => {
+    console.log(e);
+  };
+  return <button onClick={(e) => handleClick2(e)}>Click me</button>;
 }
 
 export default Button;
