@@ -122,7 +122,9 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: hsl(190, 90%, 50%);
   transition: background-color 0.5 ease;
+  margin: 10px;
 }
 .add-button {
   background-color: hsl(125, 47%, 54%);
