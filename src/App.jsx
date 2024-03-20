@@ -1,8 +1,8 @@
-import MyComponentUseEffectOnDestroy from "./MyComponentUseEffectOnDestroy.jsx";
+import DigitalClock from "./DigitalClock.jsx";
 function App() {
   return (
     <>
-      <MyComponentUseEffectOnDestroy></MyComponentUseEffectOnDestroy>
+      <DigitalClock></DigitalClock>
     </>
   );
 }
