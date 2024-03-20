@@ -1,8 +1,8 @@
-import ToDoList from "./ToDoList.jsx";
+import MyComponentUseEffectOnDestroy from "./MyComponentUseEffectOnDestroy.jsx";
 function App() {
   return (
     <>
-      <ToDoList></ToDoList>
+      <MyComponentUseEffectOnDestroy></MyComponentUseEffectOnDestroy>
     </>
   );
 }
