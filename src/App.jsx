@@ -1,8 +1,8 @@
-import MyComponentUseEffect from "./MyComponentUseEffect.jsx";
+import MyComponentUseEffectOnDestroy from "./MyComponentUseEffectOnDestroy.jsx";
 function App() {
   return (
     <>
-      <MyComponentUseEffect></MyComponentUseEffect>
+      <MyComponentUseEffectOnDestroy></MyComponentUseEffectOnDestroy>
     </>
   );
 }
